@@ -18,25 +18,22 @@
 #
 # Put a comment noting which class is the base class
 class Vehicle:
-    print("Base Class Vehicle")
     pass
 
 class FlightVehicle(Vehicle):
-    print("Vehicle -> FlightVehicle")
     pass
 
 class GroundVehicle(Vehicle):
-    print("Vehicle -> GroundVehicle")
     pass
 
 class Starship(FlightVehicle):
-    print("Vehicle -> FlightVehicle ->Starship")
+    pass
+
+class Airplane(FlightVehicle):
     pass
 
 class Car(GroundVehicle):
-    print("Vehicle -> GroundVehicle -> Car")
     pass
 
 class Motorcycle(GroundVehicle):
-    print("Vehicle -> GroundVehicle -> Motorcycle")
     pass

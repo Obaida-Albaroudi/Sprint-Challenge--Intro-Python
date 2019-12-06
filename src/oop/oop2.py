@@ -8,7 +8,7 @@ class GroundVehicle():
         self.num_wheels = num_wheels
     
     def drive(self):
-        return "Vrooooom"
+        return "vroooom"
 
     # TODO
 
@@ -18,7 +18,7 @@ class Motorcycle(GroundVehicle):
     def __init__(self, num_wheels=2):
         super().__init__(num_wheels)
     def drive(self):
-        return "BRAAP!!"
+        return "BRAAAP!!"
 #
 # Make it so when you instantiate a Motorcycle, it automatically sets the number
 # of wheels to 2 by passing that to the constructor of its superclass.
